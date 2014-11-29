@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="trainingApp">
+<head>
+	<link href="css/main.css" rel="stylesheet">
+	<script type="text/javascript" src="js/lib/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<script type="text/javascript">
+		$(window).load(function(){
+			$.each($(".span-class"), function(index, item){
+				$(item).html("Jquery Test : "+index);
+			})
+		});
+	</script>
+</head>
+<body>
+	<span id="spn1" class="span-class">This is first HTML5 page1</span>
+	<span id="spn2" class="span-class">This is first HTML5 page2</span>
+</body>
+</html>

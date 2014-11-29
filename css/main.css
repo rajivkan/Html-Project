@@ -1,0 +1,13 @@
+body{
+	background: #cccccc;
+}
+
+.span-class{
+	color: red;
+}
+span{
+	font-size: 40px;
+}
+#spn1{
+	text-decoration: underline;
+}
